@@ -100,7 +100,15 @@ h2 {
     height: auto;
     border-radius: 15px;
 }
-
+.damso-assis{
+    width: 100%;
+    height: auto;
+}
+.noemie{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
 /*****************/
 /*****FOOTER******/
 /*****************/
@@ -124,9 +132,8 @@ h2 {
 
 /******** Accueil ******/
 .thevie {
-    width: 350px;
+    width: 100%;
     height: auto;
-    left: 12.5px;
     position: absolute;
     border-radius: 20px;
 }
