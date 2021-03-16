@@ -34,11 +34,11 @@ h2{
 /*****************/
 /*****EN TETE ****/
 /*****************/
-
 .menu {
     width: 75px;
     height: auto;
 }
+
 /******** Menu ******/
 .accueil{
     position: absolute;
@@ -58,7 +58,7 @@ h2{
     width: 300px;
     height: auto;
     left: 37.5px;
-    top: 30px;
+    top: 50px;
     border-radius: 139px;
 }
 
@@ -79,7 +79,7 @@ h2{
 
 .acc{
     text-align: center;
-    margin-top: 225px;
+    margin-top: 215px;
 }
 /*****************/
 /*****FOOTER******/
