@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
-p{
+p {
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -11,7 +11,8 @@ p{
 
     color: #FFFFFF;
 }
-h2{
+
+h2 {
     font-family: 'JetBrains Mono', monospace;
     font-style: normal;
     font-weight: normal;
@@ -21,13 +22,18 @@ h2{
 
 
 }
-.page-menu,.page-accueil{
+
+.page-menu, .page-accueil {
     background-color: black;
 }
 
-.page-menu h2{
+.page-biographie {
+    background-color: #2A3440;
+}
+
+.page-menu h2, .page-biographie h2 {
     text-align: center;
-    width:100%;
+    width: 100%;
 }
 
 
@@ -40,18 +46,21 @@ h2{
 }
 
 /******** Menu ******/
-.accueil{
+.accueil {
     position: absolute;
     top: -20px;
 }
-.biographie{
+
+.biographie {
     position: absolute;
     top: 40px;
 }
-.album{
+
+.album {
     position: absolute;
     top: 100px;
 }
+
 /******** Accueil ******/
 .logo {
     position: absolute;
@@ -61,6 +70,8 @@ h2{
     top: 50px;
     border-radius: 139px;
 }
+
+/******** Biographie ******/
 
 /*****************/
 /*****MAIN********/
@@ -75,27 +86,38 @@ h2{
     top: 200px;
     border-radius: 139px;
 }
+
 /******** Accueil ******/
 
-.acc{
+.acc {
     text-align: center;
     margin-top: 215px;
 }
+
+/******** Biographie ******/
+.damso-nuage {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
 /*****************/
 /*****FOOTER******/
 /*****************/
 
 /******** Menu ******/
-.collab{
+.collab {
     position: absolute;
     top: 600px;
 }
-.certif{
+
+.certif {
     position: absolute;
     top: 660px;
 
 }
-.itw{
+
+.itw {
     position: absolute;
     top: 720px;
 }
@@ -108,3 +130,5 @@ h2{
     position: absolute;
     border-radius: 20px;
 }
+
+/******** Biographie ******/
