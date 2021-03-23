@@ -19,8 +19,13 @@ h2 {
     font-size: 40px;
     line-height: 63px;
     color: #FFFFFF;
-
-
+}
+h3{
+    font-family: 'JetBrains Mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 63px;
+    color: #FFFFFF;
 }
 
 .page-menu, .page-accueil {
