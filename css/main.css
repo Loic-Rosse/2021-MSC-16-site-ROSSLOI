@@ -26,6 +26,7 @@ h3{
     font-weight: normal;
     line-height: 63px;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .page-menu, .page-accueil {
@@ -108,12 +109,22 @@ h3{
 .damso-assis{
     width: 100%;
     height: auto;
+    border-radius: 200px;
 }
 .noemie{
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
+/******** Album ******/
+.page-album .cover {
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+    position: relative;
+    left:25%;
+}
+
 /*****************/
 /*****FOOTER******/
 /*****************/
